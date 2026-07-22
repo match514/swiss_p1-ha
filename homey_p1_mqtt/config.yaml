@@ -1,0 +1,28 @@
+name: "Homey P1 DLMS to MQTT"
+version: "1.0.0"
+slug: "homey_p1_mqtt"
+description: "Lit les trames DLMS/COSEM du dongle Homey Energy et les publie vers MQTT (Home Assistant Discovery), format compatible Suisse Romande Energie"
+url: "https://github.com/match514/swiss_p1-ha"
+arch:
+  - aarch64
+  - amd64
+  - armv7
+startup: services
+boot: auto
+init: false
+options:
+  dongle_ip: "192.168.1.33"
+  mode: "dlms"
+  decryption_key: ""
+  mqtt_host: "core-mosquitto"
+  mqtt_port: 1883
+  mqtt_user: ""
+  mqtt_password: ""
+schema:
+  dongle_ip: str
+  mode: list(dsmr|dlms)
+  decryption_key: str
+  mqtt_host: str
+  mqtt_port: port
+  mqtt_user: str
+  mqtt_password: password

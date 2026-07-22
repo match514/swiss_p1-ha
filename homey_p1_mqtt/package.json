@@ -1,0 +1,11 @@
+{
+  "name": "homey-p1-mqtt-addon",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "ws": "^8.18.1",
+    "mqtt": "^5.10.0",
+    "@athombv/dsmr-parser": "file:./vendor/dsmr-parser"
+  }
+}
