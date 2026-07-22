@@ -1,3 +1,5 @@
+Données du compteur Romande Energie dans Home Assistant
+
 Variante du script d'exemple Athom (@athombv/dsmr-parser) : au lieu d'afficher les trames DLMS dans la console, 
 ce script les publie sur un broker MQTT avec le format "MQTT Discovery" de Home Assistant, pour que les capteurs 
 apparaissent automatiquement.
