@@ -49,8 +49,8 @@ const device = {
 const SENSORS = [
   { key: 'power_w', name: 'Puissance instantanée', unit: 'W', device_class: 'power' },
   { key: 'energy_total_kwh', name: 'Énergie totale', unit: 'kWh', device_class: 'energy', state_class: 'total_increasing' },
-  { key: 'energy_tariff1_kwh', name: 'Énergie tarif 1 (HC)', unit: 'kWh', device_class: 'energy', state_class: 'total_increasing' },
-  { key: 'energy_tariff2_kwh', name: 'Énergie tarif 2 (HP)', unit: 'kWh', device_class: 'energy', state_class: 'total_increasing' },
+  { key: 'energy_tariff1_kwh', name: 'Énergie tarif 1 (HP)', unit: 'kWh', device_class: 'energy', state_class: 'total_increasing' },
+  { key: 'energy_tariff2_kwh', name: 'Énergie tarif 2 (HC)', unit: 'kWh', device_class: 'energy', state_class: 'total_increasing' },
   { key: 'voltage_l1', name: 'Tension L1', unit: 'V', device_class: 'voltage' },
   { key: 'voltage_l2', name: 'Tension L2', unit: 'V', device_class: 'voltage' },
   { key: 'voltage_l3', name: 'Tension L3', unit: 'V', device_class: 'voltage' },
